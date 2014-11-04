@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <logback.version>1.1.3-SNAPSHOT</logback.version>
+        <logback.version>1.1.2</logback.version>
     </properties>
 
     <scm>
