@@ -13,9 +13,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:file:///Users/jankeesvanandel/projects/work/opensource/socketserver-test</connection>
-        <developerConnection>scm:git:file:///Users/jankeesvanandel/projects/work/opensource/socketserver-test</developerConnection>
-        <url>scm:git:file:///Users/jankeesvanandel/projects/work/opensource/socketserver-test</url>
+        <connection>scm:git:https://github.com/jankeesvanandel/socketserver-test.git</connection>
+        <developerConnection>scm:git:https://github.com/jankeesvanandel/socketserver-test.git</developerConnection>
+        <url>scm:git:https://github.com/jankeesvanandel/socketserver-test.git</url>
     </scm>
 
     <distributionManagement>
