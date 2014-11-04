@@ -4,7 +4,7 @@
 
     <groupId>nl.jkva</groupId>
     <artifactId>socketserver-test</artifactId>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.7-SNAPSHOT</version>
 
     <properties>
         <logback.version>1.1.2</logback.version>
@@ -29,6 +29,18 @@
             <url>file:///tmp/socketserver-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.5</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
     <dependencies>
         <dependency>
